@@ -19,6 +19,7 @@ body{
     width: 100vw;
     max-width: 100%;
     font-family: "Monserrat", sans-serif;
+    background-color: var(--bone);
 }
 a{
     text-decoration: none;
@@ -67,7 +68,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding-bottom: 8rem;
 }
 .about-content{
@@ -101,15 +101,15 @@ header{
     width: 400px;
     margin: auto;
 }
+/* FIN SECTION ABOUT */
+
+/* SECTION COLLABORATION */
 .collaboration-section{
-    background-color: var(--bone);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding-bottom: 8rem;
-    border: 1px solid red;
 }
 .collaboration-content{
     font-size: 1.2rem;
@@ -118,16 +118,51 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
-.btn-collaboration a i{
-    text-decoration: none;
-    color: #303030;
+.collaboration-content p{
+    margin-bottom: 1.5rem;
 }
 .collaboration-img{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headline{
+    background-color: var(--bluepastel);
+    font-size: 2rem;
+    font-weight: var(--bold);
+    margin: 3rem 0 0.5rem 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 0.7rem;
+    border: 1px solid #303030;
 }
 .imgcollaboration{
     padding-top: 2rem;
     max-width: 400px;
     margin: auto;
 }
+.btn-collaboration i{
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 1rem 1rem 6rem 1rem;
+    color: #303030;
+}
+.btn-form a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: var(--bold);
+    padding: 0.5rem;
+    color: #303030;
+    background-color: var(--brownpastel);
+    border: 1px solid #303030;
+}
+.collaboration-card{
+    width: 29rem;
+    border: 1px solid #303030;
+}
+.collaboration-card2{
+    width: 29rem;
+    border: 1px solid #303030;
+}
+/* FIN SECTION COLLABORATION */
