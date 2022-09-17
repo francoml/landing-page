@@ -162,6 +162,7 @@ header{
     width: 29rem;
     margin-bottom: 5rem;
     border: 1px solid #303030;
+    background-color:white;
 }
 
 /* FIN CARD 1 */
@@ -193,6 +194,7 @@ header{
     border: 1px solid #303030;
     padding-bottom: 6rem;
     margin-bottom: 5rem;
+    background-color:white;
 }
 /* FIN CARD 2*/
 
@@ -200,6 +202,7 @@ header{
 .collaboration-card3{
     width: 29rem;
     border: 1px solid #303030;
+    background-color:white;
 }
 /* FIN CARD 3*/
 
