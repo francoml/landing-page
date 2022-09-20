@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --orange: #FEB377;
     --bluepastel: #D7E9F7;
     --bone: #FDFCE5;
@@ -15,62 +16,72 @@
     --regular: 400;
     --thin: 300;
 }
-body{
+
+body {
     width: 100vw;
     max-width: 100%;
     font-family: "Monserrat", sans-serif;
-    background-color: var(--bone);
+    background-color: white;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
 
 /* HEADER */
-header{
+header {
     background-color: var(--orange);
     padding: 0.5rem 2rem 0.5rem 2rem;
     width: 100%;
     height: 4.5rem;
 }
-.logo{
+
+.logo {
     width: 3.4rem;
 }
+
 /* MENU */
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.menu i{
+
+.menu i {
     font-size: 2rem;
     color: var(--bluepastel);
 }
-.container-items{
+
+.container-items {
     width: 100%;
     order: 1;
     display: none;
 }
-.item{
+
+.item {
     text-align: center;
     text-transform: uppercase;
     padding: 0.3rem 0;
 }
+
 /* FIN MENU */
 
 /* SECTION ABOUT */
-.about-section{
-    background-color: var(--bone);
+.about-section {
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 8rem;
 }
-.about-content{
+
+.about-content {
     font-size: 1.2rem;
     font-weight: var(--thin);
     margin: 1rem 3rem 0 3rem;
@@ -78,12 +89,14 @@ header{
     flex-direction: column;
     align-items: center;
 }
-.about-content p:first-child{
+
+.about-content p:first-child {
     padding: 2rem 0 1rem 0;
     font-size: 1.8rem;
     font-weight: var(--bold);
 }
-.btn-hero{
+
+.btn-hero {
     background-color: var(--bluepastel);
     color: #303030;
     font-size: 0.9rem;
@@ -93,52 +106,61 @@ header{
     border: 1px solid #303030;
     margin-top: 1.5rem;
 }
-.about-img{
+
+.about-img {
     display: flex;
 }
-.imgabout{
+
+.imgabout {
     padding-top: 2rem;
     width: 400px;
     margin: auto;
 }
+
 /* FIN SECTION ABOUT */
 
 /* INICIO ADOPT SECTION */
-.adoption-section{
-    border: solid 1px red;
+.adoption-section {
+    height: 30rem;
+    display: flex;
+    just
 }
-.adoption-card{
+
+.adoption-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30rem;
     height: 27.5rem;
-    border: solid 2px green;
 }
-.adopt-img img{
+
+.adopt-img img {
     width: 20rem;
     height: 25rem;
-    border: solid 1px red;
     border-radius: 9px;
 }
-.adopt-btn a{    
+
+.adopt-btn a {
     padding: 1rem 7.6rem 1rem 7.6rem;
-    background-color: blue;
+    background-color: rgb(92, 105, 221);
     color: white;
     border-radius: 0 0 9px 9px;
 }
+
 /* FIN ADOPT SECTION */
 
 /* SECTION COLLABORATION */
 /* INICIO CARD 1 */
-.collaboration-section{
+.collaboration-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 3rem;
     padding-bottom: 8rem;
 }
-.collaboration-content{
+
+.collaboration-content {
     font-size: 1.2rem;
     font-weight: var(--thin);
     margin: 1rem 3rem 0 3rem;
@@ -147,15 +169,18 @@ header{
     align-items: center;
     text-align: center;
 }
-.collaboration-content p{
+
+.collaboration-content p {
     margin-bottom: 1.5rem;
 }
-.collaboration-img{
+
+.collaboration-img {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.headline{
+
+.headline {
     background-color: var(--bluepastel);
     font-size: 1.7rem;
     font-weight: var(--bold);
@@ -164,18 +189,21 @@ header{
     border-radius: 0.7rem;
     border: 1px solid #303030;
 }
-.imgcollaboration{
+
+.imgcollaboration {
     padding-top: 2rem;
     max-width: 400px;
     margin: auto;
 }
-.btn-collaboration i{
+
+.btn-collaboration i {
     text-decoration: none;
     font-size: 2.5rem;
     padding: 1rem 1rem 6rem 1rem;
     color: #303030;
 }
-.btn-form a{
+
+.btn-form a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: var(--bold);
@@ -184,17 +212,18 @@ header{
     background-color: var(--brownpastel);
     border: 1px solid #303030;
 }
-.collaboration-card{
+
+.collaboration-card {
     width: 29rem;
     margin-bottom: 5rem;
     border: 1px solid #303030;
-    background-color:white;
+    background-color: white;
 }
 
 /* FIN CARD 1 */
 /* INICIO CARD 2 */
 
-.headline2{
+.headline2 {
     background-color: var(--bluepastel);
     font-size: 1.7rem;
     font-weight: var(--bold);
@@ -203,7 +232,8 @@ header{
     border-radius: 0.7rem;
     border: 1px solid #303030;
 }
-.collaboration-content2{
+
+.collaboration-content2 {
     font-size: 1.2rem;
     font-weight: var(--thin);
     margin: 1rem 3rem 0 3rem;
@@ -212,24 +242,28 @@ header{
     align-items: center;
     text-align: center;
 }
-.collaboration-content2 p{
+
+.collaboration-content2 p {
     margin-bottom: 3rem;
 }
-.collaboration-card2{
+
+.collaboration-card2 {
     width: 29rem;
     border: 1px solid #303030;
     padding-bottom: 6rem;
     margin-bottom: 5rem;
-    background-color:white;
+    background-color: white;
 }
+
 /* FIN CARD 2*/
 
 /* INICIO CARD 3*/
-.collaboration-card3{
+.collaboration-card3 {
     width: 29rem;
     border: 1px solid #303030;
-    background-color:white;
+    background-color: white;
 }
+
 /* FIN CARD 3*/
 
 /* FIN SECTION COLLABORATION */
